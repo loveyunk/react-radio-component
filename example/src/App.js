@@ -1,13 +1,13 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-import ExampleComponent from 'react-radio-component'
+import ExampleComponent from 'react-radio-component';
 
 export default class App extends Component {
-  render () {
+  render() {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <ExampleComponent>radio</ExampleComponent>
       </div>
-    )
+    );
   }
 }
